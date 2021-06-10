@@ -1,0 +1,124 @@
+header {
+  background: #2c3e50;
+  background-image: url("/assets/images/banner.jpg");
+  color: #fff;
+  background-size: cover;
+  height: 250px;
+  position: relative;
+}
+main {
+  background: #f2f2f2;
+}
+aside {
+  background: #c0392b;
+  color: yellow;
+}
+footer {
+  background: #263545;
+  color: #fff;
+}
+footer > div a {
+  text-decoration: none;
+  color: yellow;
+}
+.logo {
+  width: 4em;
+}
+.text-shadow {
+  text-shadow: 0.07em 0.07em goldenrod;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-rount {
+  border-radius: 2em;
+}
+#policies {
+  background: #fff;
+}
+#policies img {
+  width: 200px;
+}
+.column-color {
+  background: #34495e;
+  color: #fff;
+}
+.column-color2 {
+  background: #fff;
+  color: #34495e;
+}
+.text-justify {
+  text-align: justify;
+}
+#row-condition1 {
+  background-image: url("/assets/images/bg-img-03.jpg");
+  background-size: cover;
+  color: #fff;
+}
+#row-condition1 img {
+  width: 300px;
+  height: auto;
+}
+#row-condition2 {
+  background-image: url("/assets/images/bg-img-03.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+#row-condition2 img {
+  width: 300px;
+  height: auto;
+}
+#stadistics {
+  background: #34495e;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.circle {
+  width: 140px;
+  height: 140px;
+  background-color: #81b6eb;
+}
+.ticle-color {
+  color: #34495e;
+}
+#message {
+  background-image: url("/assets/images/bg-img-05.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+}
+#contact {
+  background-color: #34495e;
+  background-image: url("/assets/images/bg-img-03.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  color: #fff;
+}
+.btn {
+  background-color: #263545;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-control {
+  border-radius: 50px;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    background-color: #263545;
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 2em;
+  }
+}
+nav {
+  z-index: 100;
+}

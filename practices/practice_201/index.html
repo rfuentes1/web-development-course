@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="icon" href="assets/images/favicon-16x16.png" type="image/png" sizes="16x16">
+        <title>Curso HTML y CSS</title>
+        <link rel="stylesheet" href="assets/style/normalize.css">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    </head>
+    <body class="container">
+        <header class="row">
+            <div id="banner" class="col-sm-12 col-md-8 col-lg-9 p-0">                
+                <img src="assets/images/banner.jpg" alt="banner" class="img-fluid"/>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">                
+                <section id="logo" class="container">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                </section>                
+                <section id="login"  class="container">                    
+                    <iframe class="img-fluid" src="https://www.youtube.com/embed/jo2DzuV8RxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                </section>                
+            </div>
+        </header>        
+        <nav class="row">            
+            <ul class="col-md-12 m-0">
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="/pages/disclaimer.html">Acerca de...</a></li>
+                <li><a href="/pages/singup.html">Registro</a></li>
+            </ul>
+        </nav>
+        <main class="row">
+            <div class="container">
+                <div class="row">
+                    <article class="col-sm-12 col-md-8 col-lg-9">
+                        <h1>HTML y CSS</h1>
+                        <div id="html" class="container">                    
+                            <h2>HTML</h2> 
+                            <img src="assets/images/html5-logo.svg" alt="Logo HTML 5" title="Logo HTML 5" width="106" height="150">      
+                            <p>                    
+                                El <em>28 de octubre de 2014</em> se aprobó la <strong>Recomendación HTML 5</strong>, culminando así diez años de trabajo. En 2004 se formó el WHATWG, un grupo informal de individuos y empresas decididos a impulsar el desarrollo del HTML, que se encontraba bloqueado en el W3C desde el año 2000. En 2007 el W3C retomó el trabajo sobre el HTML y siete años después se alcanzó el objetivo.
+                            </p>
+                            <p>
+                                Pero el HTML 5 no era más que el primer paso. En noviembre de 2016 se aprobó la recomendación HTML 5.1, ampliando y clarificando el HTML 5, en diciembre de 2017 se aprobó la recomendación HTML 5.2 y el W3C prepara el HTML 5.3 para finales de 2018.
+                            </p>
+                        </div>  
+                        <div id="css" class="container">
+                            <h2>CSS</h2>
+                            <img src="assets/images/css3-logo.svg" alt="Logo CSS 3 (no oficial)" title="Logo CSS 3 (no oficial)" width="106" height="150">
+                            <p>
+                                Desde la aprobación de CSS 2 en 1998, el W3C ha estado trabajando en la siguiente generación de las hojas de estilo, las CSS 3. Las <strong>Recomendaciones CSS 3</strong> se planificaron como un conjunto de recomendaciones en vez de como un documento único. El proceso resultó mucho más largo de lo esperado: las primeras recomendaciones CSS 3 no se aprobaron hasta 2011.
+                            </p>
+                            <p>
+                                Aunque los navegadores admiten muchas características de los borradores de CSS 3, la publicación de HTML 5 no ha acelerado el desarrollo de CSS 3.
+                            </p>
+                        </div>                
+                    </article>
+                    <aside id="noticias" class="col-sm-12 col-md-4 col-lg-3">
+                        <!--ul>(li>section>h3{Noticia $}+p)*3-->
+                        <ul class="container">
+                            <li>
+                                <section>
+                                    <h3>Noticia 1</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+                                </section>
+                            </li>
+                            <li>
+                                <section>
+                                    <h3>Noticia 2</h3>
+                                    <p>Curabitur sodales ligula in libero. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
+                                </section>
+                            </li>
+                            <li>
+                                <section>
+                                    <h3>Noticia 3</h3>
+                                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <b>Maecenas mattis</b>.Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. <b>Nam nec ante</b>.</p>
+                                </section>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <footer id="about" class="row">
+            <div class="container">
+                <div class="col-md-12 footer">
+                    <p>Esta página forma parte del curso <a href="http://cursos.utmetropolitana.edu.mx/moodle/course/view.php?id=595"><cite>Desarrollo web</cite></a> impartida por <cite>Ing. Joel Chuc</cite></p>
+                    <p>Lee nuestro <cite><a href="/pages/disclaimer.html">Aviso de privaciad</a></cite></p>
+                </div>
+            </div>            
+        </footer>
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
