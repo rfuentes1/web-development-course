@@ -1,6 +1,6 @@
 header {
   background: #2c3e50;
-  background-image: url("/assets/images/banner.jpg");
+  background-image: url("../images/banner.jpg");
   color: #fff;
   background-size: cover;
   height: 250px;
@@ -53,7 +53,7 @@ footer > div a {
   text-align: justify;
 }
 #row-condition1 {
-  background-image: url("/assets/images/bg-img-03.jpg");
+  background-image: url("../images/bg-img-03.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -62,7 +62,7 @@ footer > div a {
   height: auto;
 }
 #row-condition2 {
-  background-image: url("/assets/images/bg-img-03.jpg");
+  background-image: url("../images/bg-img-03.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -85,7 +85,7 @@ footer > div a {
   color: #34495e;
 }
 #message {
-  background-image: url("/assets/images/bg-img-05.jpg");
+  background-image: url("../images/bg-img-05.jpg");
   background-size: cover;
   background-position: center;
   background-position: center;
@@ -94,7 +94,7 @@ footer > div a {
 }
 #contact {
   background-color: #34495e;
-  background-image: url("/assets/images/bg-img-03.jpg");
+  background-image: url("../images/bg-img-03.jpg");
   background-size: cover;
   background-position: center;
   padding-top: 100px !important;
